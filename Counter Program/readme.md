@@ -95,3 +95,10 @@ increaseBtn.onclick = function(){
     label_counter.textContent = counter;
 }
 ```
+
+## Setup Instructions
+
+- Download visual studio code (IDE)[https://code.visualstudio.com/] and make sure to have "Live Server" extension installed
+- Create a folder for the project
+- Create three files within that folder for index.html, index.js and style.css.
+- Press "Go Live" at the bottom of your visual studio code (IDE)
