@@ -1,6 +1,6 @@
 # My website devolpment projects
 
-## A collection of all my website devolpment projects since the start of learning html, css and javascript
+### A collection of all my website devolpment projects since the start of learning html, css and javascript
 ### Start Date: 23/01/2026
 
 All projects include a README file that provides documentation specific to that project. If you wish to build and run any of these projects yourself, please refer to the project's README for any build or setup instructions.
