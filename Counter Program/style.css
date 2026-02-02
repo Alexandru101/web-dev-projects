@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #c2a0a0;
+    background-color: #ebe0e0;
 }
 
 .counter__design {
@@ -19,7 +19,7 @@ body {
     gap: 20px;
     padding: 20px;
     background: #312e2e;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
 
@@ -30,4 +30,12 @@ body {
 
 .button__design {
     font-size: 2em;
+    cursor: pointer;
+
+    background-color: #192d9b;
+    transition: background-color 0.25s;
+}
+
+.button__design:hover{
+    background-color: #2341e9;
 }
