@@ -9,6 +9,7 @@ const symbols = ["+", "-", "*", "/"];
 let characters = [];
 let operators = [];
 let expression = "";
+let is_result = false;
 
 /* Looping through each number button (0-9) to assign a click event. 
    When clicked, it checks if the display limit is reached, then appends 
@@ -18,10 +19,9 @@ number_buttons.forEach(button => {
         if (expression.length > 13) { return; }
 
         const num = button.innerText;
-        if (operators.length === 0 && characters.length === 0 && expression !== "") {
+        if (is_result || expression === "0" || expression === "") {
             expression = num;
-        } else if (expression === "0" || expression === "") {
-            expression = num;
+            is_result = false;
         } else {
             expression += num;
         }
@@ -88,6 +88,7 @@ function calculate_expression(){
     characters = [];
     operators = [];
     expression = result.toString();
+    is_result = false;
 }
 
 /* Attaching click events to the operator buttons. When a math operator is clicked, 
@@ -106,6 +107,7 @@ operation_buttons.forEach(button => {
             return;
         }
 
+        is_result = false;
         if (expression !== ""){
             characters.push(Number(expression));
             operators.push(operator);
@@ -126,7 +128,7 @@ reset_button.onclick = function(){
     characters = [];
     operators = [];
     expression = "";
-
+    is_result = false;
     display.textContent = "0";
     display.style.fontSize = "100px";
 }
