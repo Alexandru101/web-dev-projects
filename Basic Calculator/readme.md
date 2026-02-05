@@ -7,7 +7,6 @@ As my first JavaScript project, the main goal was to build a functional calculat
 Scope & Limitations, This project focuses on linear, left-to-right logic rather than BIDMAS/PEMDAS order of operations. It is designed as a standard pocket calculator and does not include scientific functions like trigonometry (sin, cos, tan) or logarithms.
 
 <img width="584" height="803" alt="Capture" src="https://github.com/user-attachments/assets/a6f6dee4-8050-497c-b425-5c38215f102d" />
-<img width="584" height="803" alt="Capture" src="https://github.com/user-attachments/assets/a6f6dee4-8050-497c-b425-5c38215f102d" />
 
 ## Step 1: Referencing Elements & Global Variables
 Nice little optimization trick I found was to store all the buttons within one refrence and then using a 'forEach' loop to assign a click event therefore saving multiple lines of code and making the code more readible
