@@ -78,9 +78,6 @@ function calculate_expression(){
         }
     }
 
-    /* Definding 'finalResult' that will hold the result to three decimal max.
-       Essentially this is to prevent large decimal numbers */
-
     /* Displaying a format result to a maximum of three decimal places to keep the 
        display clean, while not having having too much numbers that may break the
        display. Finally we then update the UI with the result of the calculation */
