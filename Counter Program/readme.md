@@ -1,5 +1,6 @@
 # Simple Counter
 [License](https://github.com/Alexandru101/web-dev-projects/blob/main/LICENSE)
+[Website](https://alexandru101.github.io/web-dev-projects/Counter%20Program)
 
 ## Step 1: Structuring the UI with HTML
 We first start by creating a parent div to manage the overall layout. This contains a counter label and a nested div element for the buttons. By wrapping the buttons in their own container, we can easily switch their layout from a vertical column to a horizontal row using Flexbox.
