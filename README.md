@@ -5,7 +5,7 @@
 
 All projects include a README file that provides documentation specific to that project. If you wish to run a live preview of these projects yourself, please refer to the project's README for any setup instructions.
 - [Fish & Chips Shop](https://github.com/Alexandru101/HTML-CSS-Projects/tree/main/Fish%20%26%20Chips%20Shop) --> [Website](https://fish-and-chips-shop.vercel.app/)
-- [Counter Program](https://github.com/Alexandru101/web-dev-projects/tree/main/Counter%20Program)
+- [Counter Program](https://github.com/Alexandru101/web-dev-projects/tree/main/Counter%20Program) --> [Website](https://alexandru101.github.io/web-dev-projects/Counter%20Program)
 - [Basic Calculator](https://github.com/Alexandru101/web-dev-projects/tree/main/Basic%20Calculator)
 - [Dice Roller Minigame](https://github.com/Alexandru101/web-dev-projects/tree/main/Dice%20Roller%20Minigame)
 - [To-Do List](https://github.com/Alexandru101/web-dev-projects/tree/main/To-Do%20List) --> [Website](https://Alexandru101.github.io/web-dev-projects/To-Do%20List)
