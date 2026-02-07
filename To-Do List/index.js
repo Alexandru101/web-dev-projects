@@ -57,8 +57,10 @@ function renderTasks(){
         `;
 
         todoList.appendChild(LI);
-        localStorage.setItem("todoList", JSON.stringify(storredTasks));
     });
+
+    localStorage.removeItem("todoList");
+    localStorage.setItem("todoList", JSON.stringify(storredTasks));
 }
 
 // Adding functionality to the 'Create' button //
