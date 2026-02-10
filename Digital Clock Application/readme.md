@@ -13,7 +13,7 @@ The Digital Clock Application displays the current time, weekday, month, and yea
 - Presents the current month (e.g., January, February)
 - Displays the current year
 
-## Step 1: HTML Elements
+## Step 1: HTML Elements (html.index)
 
 ```
 <!DOCTYPE html>
@@ -41,7 +41,7 @@ The Digital Clock Application displays the current time, weekday, month, and yea
 </html>
 ```
 
-## Step 2: CSS Styling
+## Step 2: CSS Styling (style.css)
 ```
 * {
     margin: 0;
@@ -93,7 +93,7 @@ body {
 }
 ```
 
-## Step 3: Javascript Functionality
+## Step 3: Javascript Functionality (index.js)
 This code is used to display a real-time digital clock with both the current time (in hours, minutes, and seconds) and the current date (including weekday, month, day, and year).
 
 The updateTimer function utilizes the Date() object to fetch the current time and formats it to always show two digits for hours, minutes, and seconds (e.g., 00:00:00). The formatted time is then displayed in the #time DOM element.
@@ -131,3 +131,10 @@ updateTimer();
 
 setInterval(updateTimer, 1000);
 ```
+
+## Setup Instructions
+
+- Download [Visual Studio Code](https://code.visualstudio.com/) and make sure to have "Live Server" extension installed
+- Create a folder for the project and make sure to change the html stylesheet "href" suitable for your projects file names (eg style.css and index.js)
+- Create three files within that folder for index.html, index.js and style.css (optional but recommended).
+- Press "Go Live" at the bottom of your visual studio code (IDE)
