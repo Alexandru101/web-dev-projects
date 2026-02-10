@@ -49,7 +49,7 @@ function rollDice(sumbitBtn){
 ## Setup Instructions
 
 - Download [Visual Studio Code](https://code.visualstudio.com/) and make sure to have "Live Server" extension installed
-- Create a folder for the project and make sure to change the html stylesheet "href" to look for your projects file name
+- Create a folder for the project and make sure to change the html stylesheet "href" suitable for your projects file names (eg style.css and index.js)
 - Create three files within that folder for index.html, index.js and style.css.
 - Create a folder for the dice images and make sure it matches the 'index.js' images.push src location (can be found on line 20 - default folder name is dice_images but you can change this)
 - Press "Go Live" at the bottom of your visual studio code (IDE)
