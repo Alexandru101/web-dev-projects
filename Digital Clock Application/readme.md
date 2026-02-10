@@ -40,3 +40,94 @@ The Digital Clock Application displays the current time, weekday, month, and yea
 </body>
 </html>
 ```
+
+## Step 2: CSS Stylying
+```
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #0A84FF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    padding: 20px;
+}
+
+#container {
+    height: 130px;
+    width: 300px;
+
+    background-color: #0F1A24;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 5px solid #0F1A24;
+    border-radius: 30px;
+
+    transform: translateY(-100px);
+    gap: 5px;
+}
+
+#time {
+    font-size: 50px;
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+#date {
+    font-size: 20px;
+    color: white;
+}
+```
+
+## Step 3: Javascript Functionality
+This code is used to display a real-time digital clock with both the current time (in hours, minutes, and seconds) and the current date (including weekday, month, day, and year).
+
+The updateTimer function utilizes the Date() object to fetch the current time and formats it to always show two digits for hours, minutes, and seconds (e.g., 00:00:00). The formatted time is then displayed in the #time DOM element.
+
+The same Date() object is also used to extract the full weekday name, month name, numeric day, and the year. These values are formatted into a string (e.g., Monday, February 5 2026) and displayed in the #date DOM element.
+
+The updateTimer function is called once when the page loads, ensuring that the time and date are displayed immediately. It is then executed every second (using setInterval) to keep the clock updated in real-time.
+
+This provides a simple, live updating clock and date display using JavaScript and native Date object methods.
+```
+const time = document.getElementById("time");
+const date = document.getElementById("date");
+
+function updateTimer() {
+    // Referencing Current Date Object //
+    const CT = new Date();
+
+    const hours = CT.getHours().toString().padStart(2, "0");
+    const minutes = CT.getMinutes().toString().padStart(2, "0");
+    const seconds = CT.getSeconds().toString().padStart(2, "0");
+
+    time.textContent = `${hours}:${minutes}:${seconds}`; // Display the formatted time string to the user
+
+    // Using date methods to retrieve specific date components //
+    const WEEKDAY = CT.toLocaleString("en-us", { weekday: "long" });
+    const MONTH = CT.toLocaleString("en-us", { month: "long" });
+    const DAY = CT.toLocaleString("en-us", { day: "numeric" });
+    const YEAR = CT.toLocaleString("en-us", { year: "numeric" });
+    const FULL_DATE = `${WEEKDAY}, ${MONTH} ${DAY} ${YEAR}`;
+    
+    date.textContent = FULL_DATE;
+}
+
+updateTimer();
+
+setInterval(updateTimer, 1000);
+```
