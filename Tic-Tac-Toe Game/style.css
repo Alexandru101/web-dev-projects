@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Archivo Black", sans-serif;
+    background: linear-gradient(to top, #1e7fb8, rgba(23, 147, 219, 0.747));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#game {
+    height: auto;
+    width: 500px;
+    background-color: #ddb9b9;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    border: 5px solid #c9c5c5;
+    border-radius: 5px;
+    box-shadow: 0 0px 3px 3px #1e66b8;
+
+    padding: 10px;
+}
+
+#title {
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    color: #c9572a;
+}
+
+#board {
+    height: 100%;
+    width: 470px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+    justify-content: center;
+
+    gap: 10px;
+    padding: 10px;
+}
+
+.tile {
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    font-size: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 5px solid #c9572a;
+    border-radius: 3px;
+    user-select: none;
+    cursor: pointer;
+
+    transition: background-color 0.05s ease-in-out;
+}
+
+.tile:hover {
+    background-color: #c9572a83;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px #000;
+}
+
+#info {
+    font-size: 25px;
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+.popup_animation {
+    animation: popup 0.15s ease-in-out;
+}
+
+@keyframes popup {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+#reset {
+    height: 100%;
+    width: 100%;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    color: #000000;
+    background-color: #ffa600;
+
+    letter-spacing: 3px;
+    word-spacing: 5px;
+
+    border: 3px solid #ffa600;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: #ff9100;
+    border: 3px solid #ff9100;
+    box-shadow: 0 0px 3px 3px #ff9100d5;
+    transform: scale(1.005);
+}
