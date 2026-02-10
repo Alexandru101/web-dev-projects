@@ -41,7 +41,7 @@ The Digital Clock Application displays the current time, weekday, month, and yea
 </html>
 ```
 
-## Step 2: CSS Stylying
+## Step 2: CSS Styling
 ```
 * {
     margin: 0;
