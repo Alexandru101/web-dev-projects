@@ -12,3 +12,4 @@ All projects include a README file that provides documentation specific to that 
 - [Digital Clock Application](https://github.com/Alexandru101/web-dev-projects/tree/main/Digital%20Clock%20Application) --> [Website](https://Alexandru101.github.io/web-dev-projects/Digital%20Clock%20Application)
 - [Tic-Tac-Toe Game](https://github.com/Alexandru101/web-dev-projects/tree/main/Tic-Tac-Toe%20Game) --> [Website](https://Alexandru101.github.io/web-dev-projects/Tic-Tac-Toe%20Game)
 - [Weather App](https://github.com/Alexandru101/web-dev-projects/tree/main/Weather%20App) --> [Website](https://Alexandru101.github.io/web-dev-projects/Weather%20App)
+- [Stopwatch](https://github.com/Alexandru101/web-dev-projects/tree/main/Stopwatch) --> [website](https://Alexandru101.github.io/web-dev-projects/Stopwatch)
