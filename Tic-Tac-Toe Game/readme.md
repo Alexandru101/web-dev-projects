@@ -85,7 +85,6 @@ function clickHandler(event){
 
     board[index] = currentMove;
     tile.textContent = currentMove;
-end
 ```
 
 ## Step 5: Checking for a Winner
@@ -95,11 +94,81 @@ For each combination, three board positions are compared. If all three contain t
 
 The winnerFound variable is updated and the game status message is changed to show which player won.
 ```
-winningCombos.forEach((combo) => {
-    const [a, b, c] = combo;
-    if (board[a] && board[a] === board[b] && board[a] === board[c]){
+    winningCombos.forEach((combo) => {
+        const [a, b, c] = combo;
+        if (board[a] && board[a] === board[b] && board[a] === board[c]){
+            winnerFound = true;
+            info.textContent = `Player ${board[a]} Won!`;
+        }
+    });
+```
+
+## Step 6: Detecting a Draw
+If all board positions are filled and no winner has been found, the game is declared a draw.
+
+The every() method checks whether all board cells contain a value.
+
+If the game ends in a draw, the status message is updated and further moves are prevented.
+```
+    const isDraw = !winnerFound && board.every(cell => cell !== "");
+
+    if(isDraw){
+        info.textContent = "Game Draw";
         winnerFound = true;
-        info.textContent = `Player ${board[a]} Won!`;
+```
+
+## Step 7: Switching Turns
+If the game is not over, the turn switches to the other player by toggling currentPlayer.
+
+The status message is updated to show whose turn is next.
+```
+    } else if (!winnerFound) {
+        currentPlayer = !currentPlayer;
+        info.textContent = currentPlayer ? "Next Turn: X" : "Next Turn: O";
     }
-});
+```
+
+## Step 8: Adding UI Animation Feedback
+A short animation is applied to the status message whenever it updates.
+The popup_animation class is added temporarily and then removed after a short delay.
+```
+    info.classList.add("popup_animation");
+    setTimeout(() => {
+        info.classList.remove("popup_animation");
+    }, 150);
+}
+```
+
+## Step 9: Attaching Click Events to Tiles
+Each tile is given a click event listener that calls clickHandler().
+This allows players to interact with the board.
+```
+tiles.forEach(tile => {
+    tile.addEventListener("click", clickHandler);
+})
+```
+
+## Step 10: Resetting the Game
+The reset button restores the game to its initial state.
+
+The current player is set back to X, the winner state is cleared, and the board array is reset.
+All tile text is removed and the status message returns to "Next Turn: X".
+
+A short animation is also applied to the status message to provide visual feedback.
+```
+resetBtn.addEventListener("click", () => {
+    currentPlayer = true;
+    winnerFound = false;
+    board = ["", "", "", "", "", "", "", "", ""];
+
+    tiles.forEach(tile => {
+        tile.textContent = "";
+    })
+
+    info.textContent = "Next Turn: X";
+    info.classList.add("popup_animation");
+    setTimeout(() => {
+        info.classList.remove("popup_animation");
+    }, 150);
+})
 ```
