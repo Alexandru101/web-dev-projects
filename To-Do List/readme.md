@@ -1,5 +1,5 @@
 # To-Do-List Documentation
-<img width="1277" height="839" alt="image" src="https://github.com/user-attachments/assets/db6831d0-9b68-47a4-be36-cbb10863d097" />
+<img width="1277" height="839" alt="image" src="https://github.com/user-attachments/assets/db6831d0-9b68-47a4-be36-cbb10863d097"/>
 [License](https://github.com/Alexandru101/web-dev-projects/blob/main/LICENSE)
 [Website](https://alexandru101.github.io/web-dev-projects/To-Do%20List/)
 
