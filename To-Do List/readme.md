@@ -143,3 +143,11 @@ Finally, renderTasks() is called when the script loads so any tasks stored in lo
 ```
 renderTasks();
 ```
+
+## Setup Instructions
+
+- Download [Visual Studio Code](https://code.visualstudio.com/) and make sure to have "Live Server" extension installed
+- Create a folder for the project and make sure to change the html '<head>' stylesheet "href" suitable for your projects file names (eg what you have named instead of style.css and index.js)
+- Create three files within that folder for index.html, index.js and style.css.
+- Copy and paste all the code for each of these files that can be found within this project
+- Press "Go Live" at the bottom of your visual studio code (IDE)
