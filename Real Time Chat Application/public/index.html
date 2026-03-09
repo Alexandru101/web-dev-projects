@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Media</title>
+    <link rel="icon" href="https://play-lh.googleusercontent.com/gV2A6Pfuln_kt25BR7FaPtZlWPcrIIvhuWJ16cUmuLsGBe5ZltqW1CItJHTmpa7t3zYg">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="app-title">Real-Time Chat Application</h1>
+
+    <div id="chat-container">
+        <div id="messages-container">
+        </div>
+
+        <div id="input-container">
+            <input type="text" id="message-input" placeholder="Type Message Here . . .">
+            <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
