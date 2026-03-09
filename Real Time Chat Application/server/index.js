@@ -2,6 +2,7 @@
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
+const PORT = process.env.PORT || 9000;
 
 // Initializing Express and HTTP Server //
 const app = express();
@@ -25,7 +26,7 @@ io.on('connection', (socket) => {
     });
 });
 
-server.listen(9000, () => {
+server.listen(PORT, () => {
     console.log("Local Host: http://localhost:9000");
     console.log(`${date.getDate().toString().padStart(2, "0")}/${date.getMonth().toString().padStart()}/${date.getFullYear()}`);
 });
