@@ -14,3 +14,4 @@ All projects include a README file that provides documentation specific to that 
 - [Weather App](https://github.com/Alexandru101/web-dev-projects/tree/main/Weather%20App) --> [Website](https://Alexandru101.github.io/web-dev-projects/Weather%20App)
 - [Stopwatch](https://github.com/Alexandru101/web-dev-projects/tree/main/Stopwatch) --> [website](https://Alexandru101.github.io/web-dev-projects/Stopwatch)
 - [Real Time Chat Application](https://github.com/Alexandru101/web-dev-projects/tree/main/Real%20Time%20Chat%20Application) --> [Website](https://real-time-chat-application-qarf.onrender.com/)
+- [SaaS Dashboard](https://github.com/Alexandru101/web-dev-projects/tree/main/SaaS%20Dashboard)
