@@ -20,6 +20,9 @@ yes both methods are downloading the whole repo which is not the most optimised 
 - Open the entire project ("SaaS Dashboard") inside your IDE. Its recommended you use visual studio code
 
 once your in your ide open your terminal and run this command
+<img width="1894" height="1001" alt="image" src="https://github.com/user-attachments/assets/ac17c79b-b6c2-4ed6-ada6-fd3226d8f99d" />
+<img width="1239" height="903" alt="image" src="https://github.com/user-attachments/assets/0dad2103-e6af-4c8b-91be-4e88fdf22e83" />
+
 ```
 npm install
 ```
