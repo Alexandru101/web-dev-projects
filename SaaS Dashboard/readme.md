@@ -12,4 +12,6 @@ then you can safely delete all the folders you dont need if you are just trying 
 <img width="479" height="328" alt="image" src="https://github.com/user-attachments/assets/443bf974-823b-42d6-ba6d-9ff54e885e9a" /><br />
 
 - or if you are not using git, you can just download the entire folder
+<img width="1383" height="634" alt="image" src="https://github.com/user-attachments/assets/effa4cd5-cbde-4414-90da-1e478bd113fb" />
 
+yes both methods are downloading the whole repo which is not the most optimised way but the way I organised this repo, it might be the only way 💀
