@@ -28,3 +28,11 @@ npm install
 ```
 
 This basically just downloads all the requirments for the project using the .gitignore file which just tells it what to download
+
+### Step 3 - Running Live Local Server
+The last step is to run this command
+```
+npm run dev
+```
+then it should be http://localhost:3000/ inside your browser but you can also wait for it to finish setting up and it will give you a clickable link so it will open the website for you
+<img width="1290" height="437" alt="image" src="https://github.com/user-attachments/assets/e45a4e4d-8a5d-4126-844c-c4b3a166bfa5" />
