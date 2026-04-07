@@ -267,7 +267,7 @@ function OverviewInner() {
     return (
         <div className={`min-h-screen flex flex-col items-center justify-center pt-10 p-5 gap-5 ${darkMode ? "" : "bg-slate-100"}`}>
             <div className="w-full h-40 flex flex-col p-3">
-                <span className={`text-3xl font-bold ${darkMode ? "" : "text-black"}`}>{`Welcome back, User! 👋`}</span>
+                <span className={`text-3xl font-bold ${darkMode ? "" : "text-black"}`}>{`Welcome back, ${username}! 👋`}</span>
                 <span className={`text-lg ${darkMode ? "" : "text-black"}`}>Dashboard Overview Below:</span>
             </div>
 
