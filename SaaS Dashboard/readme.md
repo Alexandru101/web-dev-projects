@@ -29,7 +29,10 @@ npm install
 
 This basically just downloads all the requirments for the project using the .gitignore file which just tells it what to download
 
-### Step 3 - Running Live Local Server
+### step 3 - Enviroment Variables
+Inside the .env.local file you must insert your own github 
+
+### Step 4 - Running Live Local Server
 The last step is to run this command
 ```
 npm run dev
