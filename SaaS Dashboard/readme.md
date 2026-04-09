@@ -30,7 +30,13 @@ npm install
 This basically just downloads all the requirments for the project using the .gitignore file which just tells it what to download
 
 ### step 3 - Enviroment Variables
-Inside the .env.local file you must insert your own github 
+Inside the .env.local file you must fill these keys out which you can find in your github account settings
+```
+AUTH_SECRET=YOUR_SECRET_KEY
+AUTH_GITHUB_ID=YOUR_GITHUB_ID
+AUTH_GITHUB_SECRET=YOUR_GITHUB_SECRET
+```
+DO NOT SHARE THESE KEYS (very dangerous if someone was to steal your secret keys 😏)
 
 ### Step 4 - Running Live Local Server
 The last step is to run this command
