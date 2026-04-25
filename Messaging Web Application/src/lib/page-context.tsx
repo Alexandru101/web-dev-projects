@@ -2,12 +2,11 @@
 import { createContext, useState, ReactNode } from "react";
 
 export const SectionContext = createContext<{
-    activeSection: string;
-    setActiveSection: (section: string) => void;
-
-    darkMode: boolean;
-    setDarkMode: (dark: boolean) => void;
-}>(null);
+  activeSection: string;
+  setActiveSection: (section: string) => void;
+  darkMode: boolean;
+  setDarkMode: (dark: boolean) => void;
+}>({} as any);
 
 export function SectionProvider({ children }: { children: ReactNode }) {    
     const [activeSection, setActiveSection] = useState("profile");
