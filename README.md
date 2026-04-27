@@ -15,3 +15,4 @@ All projects include a README file that provides documentation specific to that 
 - [Stopwatch](https://github.com/Alexandru101/web-dev-projects/tree/main/Stopwatch) --> [website](https://Alexandru101.github.io/web-dev-projects/Stopwatch)
 - [Real Time Chat Application](https://github.com/Alexandru101/web-dev-projects/tree/main/Real%20Time%20Chat%20Application) --> [Website](https://real-time-chat-application-qarf.onrender.com/)
 - [SaaS Dashboard](https://github.com/Alexandru101/web-dev-projects/tree/main/SaaS%20Dashboard)
+- [Messaging Web Application](https://github.com/Alexandru101/web-dev-projects/tree/main/Messaging%20Web%20Application)
