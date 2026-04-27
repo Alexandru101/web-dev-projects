@@ -19,3 +19,11 @@ Inside your IDE (visual studio code), you will need to open the terminal an exec
 npm install
 ```
 Once this is done the project should of downloaded all the required dependancies such as 'node_modules'
+
+## Step 3 - Enviroment Variables: These keys are sensitive data so you must provide your own key and NOT share it with anyone!
+
+```
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_GROQ_API_KEY=g
+```
