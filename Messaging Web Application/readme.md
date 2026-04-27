@@ -16,6 +16,6 @@ Once completed you can delete the projects you dont want (eg keep 'messaging web
 ## Step 2 - Installing Dependancies: Open the project 'messaging web application' within your IDE. (it is prefferd to use [visual studio code](https://code.visualstudio.com/download))
 Inside your IDE (visual studio code), you will need to open the terminal an execute the following command below
 ```
-https://code.visualstudio.com/download
+npm install
 ```
 Once this is done the project should of downloaded all the required dependancies such as 'node_modules'
