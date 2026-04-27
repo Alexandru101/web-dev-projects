@@ -1,4 +1,4 @@
-<img width="1393" height="653" alt="image" src="https://github.com/user-attachments/assets/aaf74096-3034-4849-ab51-a10a37f7171e" /># Messaging-Web-Application Documentation
+# Messaging-Web-Application
 
 ## Build Instructions
 ### Step 1 - Downloading Files: You have two options to downloading the files required for this project
