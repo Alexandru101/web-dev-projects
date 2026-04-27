@@ -1,7 +1,7 @@
 # Messaging-Web-Application Documentation
 
-### Build Instructions
-##You have two options to downloading the files required for this project
+## Build Instructions
+### You have two options to downloading the files required for this project
 
 1. Clone the entire repo using git
 ```
