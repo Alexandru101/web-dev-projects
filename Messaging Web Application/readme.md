@@ -14,6 +14,8 @@ git clone https://github.com/Alexandru101/web-dev-projects.git
 Once completed you can delete the projects you dont want (eg keep 'messaging web application' but delete the other projects that come with it) or just keep the entire folder, either way works. (Note we can use visual studio code to open any projects isnide this folder as its like a library of all my projects in one folder)
 
 ## Step 2 - Installing Dependancies: Open the project 'messaging web application' within your IDE. (it is prefferd to use [visual studio code](https://code.visualstudio.com/download))
+Inside your IDE (visual studio code), you will need to open the terminal an execute the following command below
 ```
 https://code.visualstudio.com/download
 ```
+Once this is done the project should of downloaded all the required dependancies such as 'node_modules'
