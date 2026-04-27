@@ -21,7 +21,9 @@ npm install
 Once this is done the project should of downloaded all the required dependancies such as 'node_modules'
 
 ## Step 3 - Enviroment Variables: These keys are sensitive data so you must provide your own key and NOT share it with anyone!
+As we are using supabase for our authentication and database we will need both supabase 'URL' and 'ANON' key. Note both of these keys can be found once you are logged inside [supabase](https://supabase.com/dashboard/sign-in?returnTo=%2Forg), if by any chance you dont know how to find the key you can use an [AI](https://duck.ai/) model to guide you or watch a [youtube video](https://www.youtube.com/watch?v=bS-4LohFtBk).
 
+We also use groq's AI api as they offer free use and easy integration, however feel free to use a diffrent api such as google gemini. (Note using a diffrent api means you will have to change the code to meet the requirements of that api call as they are not all the same)
 ```
 NEXT_PUBLIC_SUPABASE_URL=[Input key here]
 NEXT_PUBLIC_SUPABASE_ANON_KEY=[Input key here]
