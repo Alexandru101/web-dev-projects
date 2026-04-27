@@ -29,3 +29,9 @@ NEXT_PUBLIC_SUPABASE_URL=[Input key here]
 NEXT_PUBLIC_SUPABASE_ANON_KEY=[Input key here]
 NEXT_PUBLIC_GROQ_API_KEY=[Input key here]
 ```
+
+## Step 4 - Building Project (Finale)
+Once you have finished all the steps above open your IDE's (visual studio code) terminal and run this command below to build your project and run a live server. (Note you may need to download the live server extension on visual studio code, if you are not using visual studio code as your IDE then you will need to research what is required for you)
+```
+npm run dev
+```
