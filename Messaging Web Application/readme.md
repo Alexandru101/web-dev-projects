@@ -1,4 +1,4 @@
-# Messaging-Web-Application Documentation
+<img width="1393" height="653" alt="image" src="https://github.com/user-attachments/assets/aaf74096-3034-4849-ab51-a10a37f7171e" /># Messaging-Web-Application Documentation
 
 ## Build Instructions
 ### Step 1 - Downloading Files: You have two options to downloading the files required for this project
@@ -35,3 +35,7 @@ Once you have finished all the steps above open your IDE's (visual studio code) 
 ```
 npm run dev
 ```
+
+Once that finishes running you can check the website at [http://localhost:3000](http://localhost:3000) or click on the link it has provided for you in the terminal
+<img width="1393" height="653" alt="image" src="https://github.com/user-attachments/assets/48f05996-f7cc-43b2-aa9e-cf7a9f0d817f" />
+
