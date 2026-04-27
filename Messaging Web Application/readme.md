@@ -1,7 +1,7 @@
 # Messaging-Web-Application Documentation
 
 ## Build Instructions
-### Step 1 Downloading Files - You have two options to downloading the files required for this project
+### Step 1 - Downloading Files: You have two options to downloading the files required for this project
 
 1. Clone the entire repo using git
 ```
@@ -13,7 +13,7 @@ git clone https://github.com/Alexandru101/web-dev-projects.git
 
 Once completed you can delete the projects you dont want (eg keep 'messaging web application' but delete the other projects that come with it) or just keep the entire folder, either way works. (Note we can use visual studio code to open any projects isnide this folder as its like a library of all my projects in one folder)
 
-## Step 2 Installing Dependancies - Open the project 'messaging web application' within your IDE. (it is prefferd to use [visual studio code](https://code.visualstudio.com/download))
+## Step 2 - Installing Dependancies: Open the project 'messaging web application' within your IDE. (it is prefferd to use [visual studio code](https://code.visualstudio.com/download))
 ```
 https://code.visualstudio.com/download
 ```
